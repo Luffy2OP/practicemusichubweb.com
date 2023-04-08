@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:rgb(246, 242, 228) ;
+}
+header{
+    background-color: #111;
+    text-align: right;
+}
+header>a{
+    color:white;
+    font-size: 15px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{ 
+    background-color: green;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    font-weight:bold ;
+    font-size: 15px;
+     
+}
+.dropdown-content{
+    position: absolute;
+    right:0;
+    display: none;
+    white-space: nowrap;
+    background-color: #ededed;
+    z-index: 10;
+
+}
+.dropdown-content a{
+    white-space:nowrap;
+    display:block;
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+
+}
+.dropdown-content a :hover{
+    background-color: royalblue;
+}
+#branding{
+    background-color: #333;
+
+} 
+#branding{
+    background-color: #fbc915;
+}
+img[src="logo.png"]{
+    height: 150px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo-section{
+    position: relative;
+    background-color: yellow;
+    height: 150px;
+}
+#logo-title{
+    position:absolute;
+    top: 0px;
+    left:0px ;
+    margin-top: 10px;
+    margin-left: 160px ;
+    font-family: fantasy;
+    font-size: 75px;
+    font-weight: normal;
+}
+#logo-subtitle {
+    position:absolute;
+    top: 0px;
+    left:0px ;
+    margin-top: 80px;
+    margin-left: 160px;
+    font-family: fantasy;
+    font-size: 90px;
+    font-weight: normal;
+}
+#logo-subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:absolute;
+    top: 0px;
+    left:0px ;
+    margin-top: 90px;
+    margin-left:160px ;
+    font-size: 18.5px;
+}
+.right-align {
+    float: right;
+    margin-right: 20px;
+}
+#searchbox {
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 65px;
+    margin-right: 10px;
+}
+#searchbox input[type='text']{
+    color:#111;
+    background-color:white ;
+    border:none;
+    height: 60px;
+    width: 250px;
+    font-size: 17px;
+    padding: 5px;
+}
+#searchbox button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 56px;
+    border: none;
+    background-color: #f7f0f0;
+    text-align: center ;
+    width: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#menubar {
+    list-style-type: none ;
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    padding: 0%;
+}
+#menubar li{                    
+    display: flex;
+    flex-direction:column;
+    float: left;
+}
+#menubar li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    padding: 14% 40% ;
+    text-decoration: none;
+    color:#fff ;
+    font-size: 25px;
+}
